@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Last.fm Stats</title>
+  <title>Scroblite</title>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <style>
@@ -543,7 +543,7 @@
           <i class="fas fa-headphones-alt"></i>
         </div>
         <div class="user-info">
-          <h1>Saqib Mir's Spotify Stats</h1>
+          <h1>Scroblite</h1>
           <div class="stats-bar">
             <div class="stat-item">
               <div class="stat-value" id="scrobbles-count">-</div>
@@ -612,7 +612,7 @@
     <div class="footer">
       <div class="refresh-info">
         <i class="fas fa-sync-alt refresh-animation"></i>
-        <span>Data refreshes every 30 seconds</span>
+        <span>Data refreshes every 5 seconds</span>
       </div>
     </div>
   </div>
@@ -954,7 +954,7 @@
     fetchTopData();
     
     // Automatically update every 30 seconds
-    setInterval(refreshData, 30000);
+    setInterval(refreshData, 5000);
   </script>
 </body>
 </html>
